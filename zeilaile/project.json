@@ -1,0 +1,36 @@
+{
+  "project_type": "javascript",
+  "debugMode": 1,
+  "showFPS": true,
+  "frameRate": 60,
+  "id": "gameCanvas",
+  "renderMode": 0,
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": [
+    "cocos2d"
+  ],
+  "jsList": [
+    "src/resource.js",
+     "src/Plug-in/underscore-min.js",
+    "src/utils/Utils.js",
+    "src/globals.js",
+    "src/Config/AttributeConfig.js",
+    "src/Config/Audio.js",
+    "src/Plug-in/Map.js",
+    "src/Entity/GroupEnemy.js",
+    "src/Entity/EnemyBase.js",
+    "src/Entity/Thief.js",
+    "src/Entity/TowerBase.js",
+    "src/Entity/AttackTower.js",
+    "src/Entity/ArrowTower.js",
+    "src/Entity/MultiDirTower.js",
+    "src/Layer/TowerPanleLayer.js",
+    "src/Layer/PlayLayer.js",
+    "src/Scene/PlayScene.js",
+     "src/Layer/LevelLayer.js",
+    "src/Scene/LevelScene.js",
+    
+    "src/Layer/MenuLayer.js",
+    "src/Scene/MenuScene.js"
+  ]
+}
